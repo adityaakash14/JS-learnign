@@ -26,17 +26,45 @@ const outsideTemp = null
 // Array, Objects, Functions
 
 
-const heros  = ["Shaktiman", "naagraj", "doga"]
-let myObj = {
-    name: "Akash"
-      
-}
+// const heros  = ["Shaktiman", "naagraj", "doga"]
+// let myObj = {
+//     name: "Akash"}
 
-const myFunction = function(){
-    console.log("Akash");
+// const myFunction = function(){
+//     console.log("Akash");
     
+// }
+
+// console.log(typeof heros);
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(primitive), Heap(Non-primitve)
+
+let myHero = "NKN"
+
+let anothername = myHero
+anothername = "NV"
+
+console.log(myHero);
+console.log(anothername);
+
+let userOne = 
+{
+    email: "user@google.com",
+    upi: "user@ybl"
 }
 
-console.log(typeof heros);
+let userTwo = userOne
+
+userTwo.email = "akash@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
 
 
